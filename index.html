@@ -4,16 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
     <title>My Resume</title>
 </head>
 <body>
-    <h1>Aslam Ansari</h1>
+    <h1 class="title">Aslam Ansari</h1>
     <img src="./Self.png" alt="Profile Picture"
     height="400"  width="200"/>
-    <h2>Professional Experience:</h2>
+    <h2 class="title">Professional Experience:</h2>
     <hr bold> <!--* add thickness and till half the page -->
-    <h3>Senior Software Engineer 1</h3>
-    <h4><a href="https://www.quark.com/">Quark</a></h4>
+    <h3 class="title">Senior Software Engineer 1</h3>
+    <h4 class="company"><a class="url" href="https://www.quark.com/">Quark</a></h4>
     <!--? add tenure and office location -->
     <ul>
         <li>Working on Porting a <a href="https://dotnet.microsoft.com/en-us/download/dotnet-framework">.NET Framework </a> depended application to <a href="https://dotnet.microsoft.com/en-us/">.NET Core </a>and deploy it using <a href="https://hub.docker.com/_/microsoft-windows-nanoserver">Windows Nano server </a>docker image. </li>
@@ -21,8 +22,8 @@
         <li>Built a node server which job is communicate with the inDesign server by sending <a href="https://helpx.adobe.com/indesign/using/supported-file-formats.html">InDesign Supported file </a> like (.idml file) and publish it in different formate like PDF and JPEG.</li>
     </ul>
 
-    <h3>Software Engineer</h3>
-    <h4><a href="https://paytm.com/">Paytm</a></h4>
+    <h3 >Software Engineer</h3>
+    <h4><a  class="url" href="https://paytm.com/">Paytm</a></h4>
     <!--? add tenure and office location -->
     <ul>
         <li>Worked as a part of the Device Technology Team wherein, I have worked on multiple devices and feature implementation</li>
@@ -30,13 +31,14 @@
         <li> <a href="https://www.paxtechnology.com/">Nexo And Pax Device:</a> I have added multiple feature like BNPL(Buy now pay latter),EMI transaction, UPI transactions Summary char slip, NFC UI and battery Icon etc. It has increase sales and merchant/customer experience have become better due to easy settlement<a href="https://en.cppreference.com/w/cpp/11">(C++11)</a>.</li>
     </ul>
 
-    <h3>Software Engineer</h3>
-    <h4><a href="https://www.pinelabs.com/">Pine Labs</a></h4>
+    <h3 class="title">Software Engineer</h3>
+    <h4><a  class="url" href="https://www.pinelabs.com/">Pine Labs</a></h4>
     <!--? add tenure and office location and projects -->
 
     <h2>SKILLS: <hr></h2>
     <ul>
         <li>
+            <!-- <span id="skills">C++,  C , Core Java,  JavaScript</span> -->
             <a href="https://cplusplus.com/">C++</a>
             <a href="https://en.wikipedia.org/wiki/C_(programming_language)">C</a>
 
@@ -46,6 +48,8 @@
         </li>
         <li>
             <a href="">Data Structure and  Algorithms</a>
+            <!-- <span id="skills">Data Structure and  Algorithms</span> -->
+            
         <li>
             <a href="https://learn.microsoft.com/en-us/sql/?view=sql-server-ver16">SQL Server</a>
             <a href="https://www.mongodb.com/">MongoDB</a>
